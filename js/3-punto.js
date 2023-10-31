@@ -2,7 +2,6 @@ let fraseCompleta = "";
 
 do {
   const primeraFrase = prompt('Ingrese una frase');
-  // pregunta si es la primera frase
   if (fraseCompleta.length === 0) {
     fraseCompleta += primeraFrase;
   } else {
